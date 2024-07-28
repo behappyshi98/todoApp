@@ -64,3 +64,56 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+
+
+
+# TodoApplicationTask
+
+
+## run first Install Dependencies:
+composer install
+
+## clear cash
+##### php artisan route:cache
+##### php artisan route:clear
+##### php artisan config:cache
+
+### Copy the .env.example File:
+Copy the .env.example file to create a new .env file
+
+### configure .env file 
+
+##### DB_CONNECTION=mysql
+##### DB_HOST=127.0.0.1
+##### DB_PORT=3306
+##### DB_DATABASE=todo
+##### DB_USERNAME=root
+##### DB_PASSWORD=
+
+
+### Generate the Application Key:
+php artisan key:generate
+
+
+## Database 
+
+##### database name add into mysql new database
+##### Run Database Migrations - php artisan migrate
+ 
+OR 
+
+##### database name add into mysql new database
+##### import sql
+
+
+## Start Laravel Development Server:
+php artisan serve
+
+
+## Access Your Application:
+Open your browser and navigate to http://127.0.0.1:8000 to verify that your application is working correctly.
