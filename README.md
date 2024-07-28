@@ -1,3 +1,57 @@
+# TodoApplicationTask
+
+
+## run first Install Dependencies:
+composer install
+
+## clear cash
+##### php artisan route:cache
+##### php artisan route:clear
+##### php artisan config:cache
+
+### Copy the .env.example File:
+Copy the .env.example file to create a new .env file
+
+### configure .env file 
+
+##### DB_CONNECTION=mysql
+##### DB_HOST=127.0.0.1
+##### DB_PORT=3306
+##### DB_DATABASE=todo
+##### DB_USERNAME=root
+##### DB_PASSWORD=
+
+
+### Generate the Application Key:
+php artisan key:generate
+
+
+## Database 
+
+##### database name add into mysql new database
+##### Run Database Migrations - php artisan migrate
+ 
+OR 
+
+##### database name add into mysql new database
+##### import sql
+
+
+## Start Laravel Development Server:
+php artisan serve
+
+
+## Access Your Application:
+Open your browser and navigate to http://127.0.0.1:8000 to verify that your application is working correctly.
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -72,48 +126,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
-# TodoApplicationTask
 
-
-## run first Install Dependencies:
-composer install
-
-## clear cash
-##### php artisan route:cache
-##### php artisan route:clear
-##### php artisan config:cache
-
-### Copy the .env.example File:
-Copy the .env.example file to create a new .env file
-
-### configure .env file 
-
-##### DB_CONNECTION=mysql
-##### DB_HOST=127.0.0.1
-##### DB_PORT=3306
-##### DB_DATABASE=todo
-##### DB_USERNAME=root
-##### DB_PASSWORD=
-
-
-### Generate the Application Key:
-php artisan key:generate
-
-
-## Database 
-
-##### database name add into mysql new database
-##### Run Database Migrations - php artisan migrate
- 
-OR 
-
-##### database name add into mysql new database
-##### import sql
-
-
-## Start Laravel Development Server:
-php artisan serve
-
-
-## Access Your Application:
-Open your browser and navigate to http://127.0.0.1:8000 to verify that your application is working correctly.
